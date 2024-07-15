@@ -14,7 +14,7 @@ script:SetAttribute("HealthPerSecond", 1)
 - Uses events exclusively, unlike how the default script uses an infinte while loop
 - It's now possible to change the rate that a player's character heals during gameplay, by editing the script's "HealthPerSecond" attribute using a server-sided script
 
-## How the rate works
+## Examples on how you can use the rate during gameplay
 The rate's default value is `1`. This is in-order to match the same regeneration rate that the default health script uses
 
 - Setting the rate's value to any value greater-than 0 will cause the player's character to heal faster
