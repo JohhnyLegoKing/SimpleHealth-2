@@ -10,4 +10,8 @@ end)
 
 script:GetAttributeChangedSignal("HealthPerSecond"):Connect(function()
 	healthPerSecond = script:GetAttribute("HealthPerSecond"):: number
+
+	if healthPerSecond < 0 then
+		humanoid.Health += healthPerSecond * task.wait(0)
+	end
 end)
