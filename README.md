@@ -18,7 +18,7 @@ script:SetAttribute("HealthPerSecond", 1)
 The rate's default value is `1`. This is in-order to match the same regeneration rate that the default health script uses
 
 - Setting the rate's value to any value greater-than 0 will cause the player's character to heal faster
-- Setting the rate's value to any value less-than 0 will cause the player's character to take damage, although you'll need to jump start this by initially hurting the character through an alternative method so that the "HealthChanged" event is triggered
+- Setting the rate's value to any value less-than 0 will cause the player's character to take damage
 - Setting the rate to 0 will cause the character to be unable to regenerate their health
 
 ## Video showcase (Recorded in the demo area)
