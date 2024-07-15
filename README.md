@@ -21,6 +21,9 @@ The rate's default value is `1`. This is in-order to match the same regeneration
 - Setting the rate's value to any value less-than 0 will cause the player's character to take damage, although you'll need to jump start this by initially hurting the character through an alternative method so that the "HealthChanged" event is triggered
 - Setting the rate to 0 will cause the character to be unable to regenerate their health
 
+## Video showcase (Recorded in the demo area)
+https://www.youtube.com/watch?v=PLrXFTVY-pg
+
 ## Where can I find SimpleHealth 2
 You can find SimpleHealth 2 on the [Roblox Marketplace](https://create.roblox.com/store/asset/18501181067/SimpleHealth-2)
 You can also try out SimpleHealth 2 in this [demo area](https://www.roblox.com/games/18501965714/SimpleHealth-2-Demo)
